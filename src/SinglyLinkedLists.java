@@ -4,18 +4,18 @@
  * anterior
  */
 
-class Node {
+class SingleNode {
   public int value;
-  public Node next;
+  public SingleNode next;
 }
 
 class SinglyLinkedLists {
   public static void main(String args[]) {
-    Node head = new Node();
+    SingleNode head = new SingleNode();
 
-    Node n1 = new Node();
+    SingleNode n1 = new SingleNode();
 
-    Node n2 = new Node();
+    SingleNode n2 = new SingleNode();
     head.value = 21;
     n1.value = 33;
     n2.value = 46;
@@ -24,7 +24,7 @@ class SinglyLinkedLists {
     n1.next = n2;
     n2.next = null;
 
-    Node currentNode = head;
+    SingleNode currentNode = head;
 
     while (currentNode != null) {
       System.out.println(currentNode.value);
