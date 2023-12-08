@@ -1,3 +1,4 @@
+package stack;
 public class Pilha {
 	
 	private No refNoEntradaPilha;

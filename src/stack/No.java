@@ -1,3 +1,4 @@
+package stack;
 public class No {
 	private int dado;
 	private No refNo = null;
