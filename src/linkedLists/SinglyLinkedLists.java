@@ -1,3 +1,4 @@
+package linkedLists;
 /**
  * SinglyLinkedLists
  * È possível apenas avançar pelos nós sem a possibilidade de verificar o nó

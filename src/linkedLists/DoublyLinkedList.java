@@ -1,3 +1,4 @@
+package linkedLists;
 /**
  * Doubly LinkedList
  * É possível navegar pelos itens conectados diretamente (próximo, anterior)
